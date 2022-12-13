@@ -1,0 +1,237 @@
+.background{
+    background-image: url(./media/shara\ desert.jpg);
+    height: 853px;
+}
+.logo{
+    display: inline;
+    position: relative;
+    top: 33px;
+    left: 83px;
+    width: 10px;
+}
+.cammellogo{
+    width: 50px;
+}
+nav{
+    position: relative;
+    top: -14px;
+    right: -950px;
+    width: 494px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}
+li{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    color: white;
+    text-decoration: none;
+}
+.menulogo{
+    position: absolute;
+    top: -11px;
+    right: 30px;
+    
+}
+.info{
+    color: white;
+    width: 555px;
+    margin: 40px;
+    display: inline-block;
+}
+h1{
+    
+    margin: 40px;
+    font-size: 100px;
+}
+.saharainfo{
+    margin: 40px;
+    line-height: 30px;
+}
+.explore{
+    display: flex;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 182px;
+    padding: 10px;
+    justify-content: center;
+    text-decoration: none;
+    margin: 40px;
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    position: absolute;
+    top: 86px;
+    left: 773px;
+    padding: 20px;
+}
+.desert:hover{
+    transition: 0.3s;
+    transform: translateY(-5px);
+    transition-timing-function: linear;
+}
+.desert{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 233px;
+    padding: 20px;
+    margin: 30px;
+    background-image: url(./media/pic-1.png);
+    background-size: 100%;
+    line-height: 20px;
+    height: 269px;
+}
+
+.bagawat{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 233px;
+    padding: 20px;
+    margin: 30px;
+    background-image: url(./media/pic-2.png);
+    background-size: 100%;
+    line-height: 20px;
+    height: 269px;
+}
+.bagawat:hover{
+    transition: 0.3s;
+    transform: translateY(-5px);
+    transition-timing-function: linear;
+}
+.pyramid{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 233px;
+    padding: 20px;
+    margin: 30px;
+    background-image: url(./media/pic-3.png);
+    background-size: 100%;
+    line-height: 20px;
+    height: 269px;
+}
+.pyramid:hover{
+    transition: 0.3s;
+    transform: translateY(-5px);
+    transition-timing-function: linear;
+}
+.kalhari{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 233px;
+    padding: 20px;
+    margin: 30px;
+    background-image: url(./media/pic-4.png);
+    background-size: 100%;
+    line-height: 20px;
+    height: 269px;
+}
+.kalhari:hover{
+    transition: 0.3s;
+    transform: translateY(-5px);
+    transition-timing-function: linear;
+}
+@media only screen and (max-width:480px) {
+    
+    .background{
+        background-image: url(./media/shara\ desert.jpg);
+        height: 100%;
+    }
+    h1{
+        font-size: 40px;
+        margin: 10px;
+    }
+    .saharainfo{
+        font-size: 18px;
+        margin: 6px;
+        width: 300px;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 6px;
+        position: relative;
+        top: -100px;
+        left: 7px;
+    }
+    nav{
+        position: relative;
+        top: 20px;
+        left: 10px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -38px;
+        left: 229px;
+    }
+    #logo{
+        position: absolute;
+        top: -4px;
+        left: 79px;
+    }
+   
+}
+@media only screen and (max-width:992px) {
+    .background{
+        background-image: url(./media/shara\ desert.jpg);
+        height: 100%;
+    }
+    h1{
+        font-size: 100px;
+        margin: 10px;
+    }
+    .saharainfo{
+        font-size: 25px;
+    margin: 6px;
+    width: 799px;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 6px;
+        position: relative;
+        top: -100px;
+        left: 7px;
+        
+    }
+    nav{
+        position: relative;
+    top: -16px;
+    left: 339px;
+    }
+    .desert{
+        width: 80%;
+        background-size: 100%;
+    }
+    .pyramid{
+        width: 80%;
+        background-size: 100%;
+    }
+    .bagawat{
+        width: 80%;
+        background-size: 100%;
+    }
+    .kalhari{
+        width: 80%;
+        background-size: 100%;
+    }
+   
+}
